@@ -1,0 +1,177 @@
+[ +113 ms] Unable to locate an Android SDK.
+[  +36 ms] executing: sysctl hw.optional.arm64
+[  +17 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[  +25 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +3 ms] executing: [/Users/rajat/development/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +51 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-06-24 11:07:06 -0700
+[  +28 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +50 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +11 ms] Skipping pub get: version match.
+[  +72 ms] Found plugin permission_handler at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler-12.0.3/
+[   +8 ms] Found plugin permission_handler_windows at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +6 ms] Found plugin permission_handler_html at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +2 ms] Found plugin permission_handler_apple at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.10/
+[   +2 ms] Found plugin permission_handler_android at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[  +31 ms] executing: sysctl hw.optional.arm64
+[  +17 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +25 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +24 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +73 ms] Found plugin permission_handler at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler-12.0.3/
+[   +2 ms] Found plugin permission_handler_windows at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +2 ms] Found plugin permission_handler_html at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +2 ms] Found plugin permission_handler_apple at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.10/
+[   +2 ms] Found plugin permission_handler_android at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[  +28 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +21 ms] Found plugin permission_handler at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler-12.0.3/
+[   +1 ms] Found plugin permission_handler_windows at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +3 ms] Found plugin permission_handler_html at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +1 ms] Found plugin permission_handler_apple at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.10/
+[   +1 ms] Found plugin permission_handler_android at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[   +6 ms] Generating /Users/rajat/vibematch_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +6 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +25 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +21 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +27 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +24 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +23 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +29 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +27 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +10 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +29 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +25 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +97 ms] Found plugin permission_handler at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler-12.0.3/
+[   +2 ms] Found plugin permission_handler_windows at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[   +2 ms] Found plugin permission_handler_html at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +1 ms] Found plugin permission_handler_apple at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.10/
+[        ] Found plugin permission_handler_android at /Users/rajat/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[   +6 ms] generated_plugin_registrant.dart not found. Skipping.
+[   +3 ms] Compiling lib/main.dart for the Web...
+[  +12 ms] Initializing file store
+[   +2 ms] Done initializing file store
+[  +45 ms] Skipping target: web_entrypoint
+[   +2 ms] invalidated build due to missing files: /Users/rajat/vibematch_app/web/*/index.html, /Users/rajat/vibematch_app/web/flutter_bootstrap.js
+[   +1 ms] Skipping target: dart_build
+[        ] Skipping target: gen_localizations
+[   +3 ms] web_templated_files: Starting due to {InvalidatedReasonKind.outputMissing: The following outputs were missing: /Users/rajat/vibematch_app/build/web/*/index.html, InvalidatedReasonKind.inputMissing: The following inputs were missing: /Users/rajat/vibematch_app/web/*/index.html,/Users/rajat/vibematch_app/web/flutter_bootstrap.js}
+[   +7 ms] web_static_assets: Starting due to {InvalidatedReasonKind.outputMissing: The following outputs were missing: /Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/flutter.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/wimp.wasm,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm_heavy.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/canvaskit.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm_heavy.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm.wasm,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/chromium/canvaskit.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/chromium/canvaskit.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/chromium/canvaskit.wasm,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/canvaskit.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/wimp.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/canvaskit.wasm,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/wimp.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/experimental_webparagraph/canvaskit.js.symbols,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/experimental_webparagraph/canvaskit.js,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/experimental_webparagraph/canvaskit.wasm,/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/canvaskit/skwasm_heavy.wasm}
+[ +108 ms] web_static_assets: Complete
+[   +3 ms] dart2js: Starting due to {}
+[  +12 ms] executing: /Users/rajat/development/flutter/bin/cache/dart-sdk/bin/dart compile js --platform-binaries=/Users/rajat/development/flutter/bin/cache/flutter_web_sdk/kernel --invoker=flutter_tool -Ddart.vm.product=true -DFLUTTER_VERSION=3.44.4 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=ad70ec4617 -DFLUTTER_ENGINE_REVISION=a10d8ac38d -DFLUTTER_DART_VERSION=3.12.2 -DFLUTTER_WEB_USE_SKIA=true -DFLUTTER_WEB_USE_SKWASM=false -DFLUTTER_WEB_CANVASKIT_URL=https://www.gstatic.com/flutter-canvaskit/a10d8ac38de835021c8d2f920dbf50a920ccc030/ --native-null-assertions --no-source-maps -O4 --minify -o /Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/app.dill --packages=/Users/rajat/vibematch_app/.dart_tool/package_config.json --cfe-only /Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/main.dart
+[   +1 ms] dart2wasm: Starting due to {}
+[   +2 ms] executing: /Users/rajat/development/flutter/bin/cache/dart-sdk/bin/dart compile wasm --packages=/Users/rajat/vibematch_app/.dart_tool/package_config.json --extra-compiler-option=--platform=/Users/rajat/development/flutter/bin/cache/flutter_web_sdk/kernel/dart2wasm_platform.dill -Ddart.vm.profile=false -Ddart.vm.product=true --extra-compiler-option=--delete-tostring-package-uri=dart:ui --extra-compiler-option=--delete-tostring-package-uri=package:flutter --extra-compiler-option=--import-shared-memory --extra-compiler-option=--shared-memory-max-pages=32768 -DFLUTTER_VERSION=3.44.4 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=ad70ec4617 -DFLUTTER_ENGINE_REVISION=a10d8ac38d -DFLUTTER_DART_VERSION=3.12.2 -DFLUTTER_WEB_USE_SKIA=false -DFLUTTER_WEB_USE_SKWASM=true -DFLUTTER_WEB_CANVASKIT_URL=https://www.gstatic.com/flutter-canvaskit/a10d8ac38de835021c8d2f920dbf50a920ccc030/ --extra-compiler-option=--depfile=/Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/dart2wasm.d -O2 --strip-wasm --no-source-maps --minify --extra-compiler-option=--dry-run -o /Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/main.dart.wasm /Users/rajat/vibematch_app/.dart_tool/flutter_build/8b23deb8e9ab14592ad637323cc11fda/main.dart
+[  +79 ms] web_templated_files: Complete
+[+7536 ms] lib/main.dart:67:35:
+           Error: The method 'VideoCallScreen' isn't defined for the type '_HomeScreenState'.
+            - '_HomeScreenState' is from 'package:vibematch_app/main.dart' ('lib/main.dart').
+                       builder: (context) => VideoCallScreen(channelName: roomID),
+                                             ^^^^^^^^^^^^^^^
+           lib/main.dart:174:53:
+           Error: Not a constant expression.
+                                   builder: (context) => const VideoCallScreen(channelName: "test_room"),
+                                                               ^^^^^^^^^^^^^^^
+           Error: Compilation failed.
+[+15671 ms] Found incompatibilities with WebAssembly.
+
+            file:///Users/rajat/.pub-cache/hosted/pub.dev/socket_io_common-3.1.1/lib/src/util/js_interop_type_adapter.dart 7:10 - invalid_runtime_check_with_js_interop_types lint violation: Runtime check between 'Object' and 'JSString' checks whether a Dart value is a JS interop type, which might not be platform-consistent. (7)
+[  +10 ms] dart2wasm: Complete
+[   +7 ms] Persisting file store
+[   +4 ms] Done persisting file store
+[  +11 ms] Compiling lib/main.dart for the Web... (completed in 23.5s)
+[   +2 ms] "flutter web" took 24,370ms.
+[  +13 ms] executing: sw_vers -productName
+[  +43 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[  +27 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 26.5.1
+[        ] executing: sw_vers -buildVersion
+[  +38 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 25F80
+[        ] executing: uname -m
+[  +20 ms] Exit code 0 from: uname -m
+[        ] x86_64
+[        ] Running 1 shutdown hook
+[   +2 ms] Shutdown hooks complete
+[ +267 ms] exiting with code 1
