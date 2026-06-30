@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         const SizedBox(
                           width: 100,
                           height: 100,
-                          child: CircularProgressIndicator(color: Colors.pinkAccent, strokeWidth: 6),
+                          child: CircularProgressIndicator(color: Color(0xFF8B5CF6), strokeWidth: 6),
                         )
                       else ...[
                         _buildNameField(provider),
@@ -204,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 28,
                   child: CircularProgressIndicator(
                     strokeWidth: 2.6,
-                    color: Colors.pinkAccent,
+                    color: Color(0xFF8B5CF6),
                   ),
                 ),
               )
@@ -216,7 +216,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 36,
                   height: 36,
                   decoration: BoxDecoration(
-                    color: Colors.pinkAccent,
+                    color: const Color(0xFF8B5CF6),
                     shape: BoxShape.circle,
                     border: Border.all(color: Colors.white, width: 2),
                   ),
@@ -245,9 +245,9 @@ class _HomeScreenState extends State<HomeScreen> {
           width: 320,
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: const Color(0xFF1E1E1E),
+            color: const Color(0xFF0F0F16),
             borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: Colors.pinkAccent, width: 1.5),
+            border: Border.all(color: const Color(0xFF8B5CF6), width: 1.5),
             boxShadow: const [BoxShadow(color: Colors.black38, blurRadius: 20, offset: Offset(0, 10))],
           ),
           child: Column(
@@ -281,7 +281,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onPressed: provider.acceptIncomingCall,
                       icon: const Icon(Icons.check, color: Colors.white),
                       label: const Text('Accept', style: TextStyle(color: Colors.white)),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.greenAccent.shade700),
+                      style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6)),
                     ),
                   ),
                   const SizedBox(width: 12),
@@ -290,7 +290,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       onPressed: provider.rejectIncomingCall,
                       icon: const Icon(Icons.close, color: Colors.white),
                       label: const Text('Reject', style: TextStyle(color: Colors.white)),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent),
+                      style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFFF2A2A)),
                     ),
                   ),
                 ],
@@ -307,9 +307,19 @@ class _HomeScreenState extends State<HomeScreen> {
       controller: provider.nameController,
       decoration: InputDecoration(
         labelText: 'Your Name',
+        labelStyle: const TextStyle(color: Colors.white70),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Color(0xFF8B5CF6), width: 2),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Colors.white24),
+        ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
-        prefixIcon: const Icon(Icons.person, color: Colors.pink),
+        prefixIcon: const Icon(Icons.person, color: Color(0xFF8B5CF6)),
       ),
+      style: const TextStyle(color: Colors.white),
       textInputAction: TextInputAction.next,
     );
   }
@@ -317,12 +327,22 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildGenderField(MatchProvider provider) {
     return DropdownButtonFormField<String>(
       initialValue: provider.selectedGender,
+      dropdownColor: const Color(0xFF0F0F16),
       decoration: InputDecoration(
         labelText: 'I am',
+        labelStyle: const TextStyle(color: Colors.white70),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Color(0xFF8B5CF6), width: 2),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Colors.white24),
+        ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
       ),
       items: ['Male', 'Female', 'Other'].map((String value) {
-        return DropdownMenuItem(value: value, child: Text(value));
+        return DropdownMenuItem(value: value, child: Text(value, style: const TextStyle(color: Colors.white)));
       }).toList(),
       onChanged: (value) {
         if (value != null) {
@@ -335,12 +355,22 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildPreferenceField(MatchProvider provider) {
     return DropdownButtonFormField<String>(
       initialValue: provider.selectedPreference,
+      dropdownColor: const Color(0xFF0F0F16),
       decoration: InputDecoration(
         labelText: 'Looking for',
+        labelStyle: const TextStyle(color: Colors.white70),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Color(0xFF8B5CF6), width: 2),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: Colors.white24),
+        ),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
       ),
       items: ['All', 'Male', 'Female'].map((String value) {
-        return DropdownMenuItem(value: value, child: Text(value));
+        return DropdownMenuItem(value: value, child: Text(value, style: const TextStyle(color: Colors.white)));
       }).toList(),
       onChanged: (value) {
         if (value != null) {
@@ -356,7 +386,9 @@ class _HomeScreenState extends State<HomeScreen> {
       icon: const Icon(Icons.favorite, color: Colors.white),
       label: const Text('Find My Vibe', style: TextStyle(fontSize: 18, color: Colors.white)),
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.pink,
+        backgroundColor: const Color(0xFF8B5CF6),
+        shadowColor: const Color(0xFF8B5CF6).withValues(alpha: 0.5),
+        elevation: 8,
         padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       ),
@@ -369,7 +401,7 @@ class _HomeScreenState extends State<HomeScreen> {
       icon: const Icon(Icons.refresh, color: Colors.white),
       label: const Text('Retry Connection', style: TextStyle(color: Colors.white, fontSize: 16)),
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: const Color(0xFF6D28D9),
         padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 14),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       ),
@@ -386,10 +418,10 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         );
       },
-      icon: const Icon(Icons.video_call, color: Colors.greenAccent),
+      icon: const Icon(Icons.video_call, color: Color(0xFF8B5CF6)),
       label: const Text(
         'Direct Test Call (No Server)',
-        style: TextStyle(color: Colors.greenAccent, fontSize: 16),
+        style: TextStyle(color: Color(0xFF8B5CF6), fontSize: 16),
       ),
     );
   }

@@ -30,7 +30,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
       decoration: BoxDecoration(
         color: Colors.white10,
         shape: BoxShape.circle,
-        border: Border.all(color: Colors.pinkAccent.withValues(alpha: 0.75), width: 2.5),
+        border: Border.all(color: const Color(0xFF8B5CF6).withValues(alpha: 0.75), width: 2.5),
         boxShadow: const [
           BoxShadow(color: Colors.black45, blurRadius: 24, offset: Offset(0, 12)),
         ],
@@ -82,7 +82,8 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
         return Scaffold(
           appBar: AppBar(
             title: Text('VibeMatch Call: ${widget.channelName}'),
-            backgroundColor: Colors.pink,
+            backgroundColor: const Color(0xFF0A0A0E),
+            elevation: 0,
           ),
           body: SafeArea(
             child: Stack(
@@ -91,7 +92,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                   children: [
                     Container(
                       width: double.infinity,
-                      color: const Color(0xFF1E1E1E),
+                      color: const Color(0xFF0A0A0E),
                       padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
                       child: Column(
                         children: [
@@ -114,7 +115,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                     ),
                     Expanded(
                       child: Container(
-                        color: const Color(0xFF121212),
+                        color: const Color(0xFF060609),
                         child: Column(
                           children: [
                             Padding(
@@ -155,7 +156,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                                             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
                                             constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.72),
                                             decoration: BoxDecoration(
-                                              color: isMine ? Colors.pinkAccent : Colors.white12,
+                                              color: isMine ? const Color(0xFF8B5CF6) : Colors.white10,
                                               borderRadius: BorderRadius.only(
                                                 topLeft: const Radius.circular(18),
                                                 topRight: const Radius.circular(18),
@@ -226,9 +227,9 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                               height: 200,
                               padding: const EdgeInsets.all(12),
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: const Color(0xFF0F0F16),
                                 borderRadius: BorderRadius.circular(16),
-                                border: Border.all(color: Colors.black12),
+                                border: Border.all(color: const Color(0xFF8B5CF6).withValues(alpha: 0.3)),
                               ),
                               child: GridView.count(
                                 crossAxisCount: 6,
@@ -243,14 +244,14 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                                     onTap: () => _appendEmoji(provider.chatTextController, emoji),
                                     child: Container(
                                       decoration: BoxDecoration(
-                                        color: Colors.grey[100],
+                                        color: Colors.white10,
                                         borderRadius: BorderRadius.circular(12),
-                                        border: Border.all(color: Colors.black12),
+                                        border: Border.all(color: Colors.white24),
                                       ),
                                       child: Center(
                                         child: Text(
                                           emoji,
-                                          style: const TextStyle(fontSize: 28, color: Colors.black),
+                                          style: const TextStyle(fontSize: 28),
                                         ),
                                       ),
                                     ),
@@ -261,14 +262,14 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                           const SizedBox(height: 12),
                           Container(
                             decoration: BoxDecoration(
-                              color: Colors.white,
+                              color: const Color(0xFF0F0F16),
                               borderRadius: BorderRadius.circular(16),
-                              border: Border.all(color: Colors.black, width: 2),
+                              border: Border.all(color: const Color(0xFF8B5CF6).withValues(alpha: 0.5), width: 1.5),
                             ),
                             child: Row(
                               children: [
                                 IconButton(
-                                  icon: const Icon(Icons.emoji_emotions, color: Colors.black87),
+                                  icon: const Icon(Icons.emoji_emotions, color: Color(0xFF8B5CF6)),
                                   onPressed: () {
                                     setState(() {
                                       _showEmojiPanel = !_showEmojiPanel;
@@ -280,11 +281,11 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                                     controller: provider.chatTextController,
                                     decoration: const InputDecoration(
                                       hintText: 'Type a message...',
-                                      hintStyle: TextStyle(color: Colors.black45),
+                                      hintStyle: TextStyle(color: Colors.white38),
                                       border: InputBorder.none,
                                       contentPadding: EdgeInsets.symmetric(vertical: 18, horizontal: 12),
                                     ),
-                                    style: const TextStyle(color: Colors.black87),
+                                    style: const TextStyle(color: Colors.white),
                                     textInputAction: TextInputAction.send,
                                     onChanged: (text) {
                                       if (text.isEmpty) {
@@ -297,7 +298,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                                   ),
                                 ),
                                 IconButton(
-                                  icon: const Icon(Icons.send, color: Colors.pink),
+                                  icon: const Icon(Icons.send, color: Color(0xFF8B5CF6)),
                                   onPressed: provider.sendChatMessage,
                                 ),
                               ],
@@ -313,7 +314,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                           Expanded(
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.red,
+                                backgroundColor: const Color(0xFFFF2A2A),
                                 padding: const EdgeInsets.symmetric(vertical: 16),
                                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
                               ),
@@ -330,10 +331,10 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                               child: Container(
                                 width: 74,
                                 height: 74,
-                                decoration: BoxDecoration(
-                                  color: Colors.pinkAccent,
+                                decoration: const BoxDecoration(
+                                  color: Color(0xFFFF007F),
                                   shape: BoxShape.circle,
-                                  boxShadow: const [
+                                  boxShadow: [
                                     BoxShadow(color: Colors.black45, blurRadius: 14, offset: Offset(0, 8)),
                                   ],
                                 ),
@@ -373,9 +374,9 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
           width: 320,
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: const Color(0xFF1E1E1E),
+            color: const Color(0xFF0F0F16),
             borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: Colors.pinkAccent, width: 1.5),
+            border: Border.all(color: const Color(0xFF8B5CF6), width: 1.5),
             boxShadow: const [BoxShadow(color: Colors.black38, blurRadius: 20, offset: Offset(0, 10))],
           ),
           child: Column(
@@ -409,7 +410,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                       onPressed: provider.acceptIncomingCall,
                       icon: const Icon(Icons.check, color: Colors.white),
                       label: const Text('Accept', style: TextStyle(color: Colors.white)),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.greenAccent.shade700),
+                      style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF8B5CF6)),
                     ),
                   ),
                   const SizedBox(width: 12),
@@ -418,7 +419,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
                       onPressed: provider.rejectIncomingCall,
                       icon: const Icon(Icons.close, color: Colors.white),
                       label: const Text('Reject', style: TextStyle(color: Colors.white)),
-                      style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent),
+                      style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFFF2A2A)),
                     ),
                   ),
                 ],

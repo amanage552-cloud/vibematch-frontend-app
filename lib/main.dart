@@ -18,8 +18,13 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'VibeMatch',
         theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.pink,
-          scaffoldBackgroundColor: const Color(0xFF121212),
+          primaryColor: const Color(0xFF8B5CF6),
+          scaffoldBackgroundColor: const Color(0xFF060609),
+          colorScheme: const ColorScheme.dark(
+            primary: Color(0xFF8B5CF6),
+            secondary: Color(0xFFFF007F),
+            surface: Color(0xFF0F0F16),
+          ),
         ),
         home: const HomeScreen(),
         debugShowCheckedModeBanner: false,
